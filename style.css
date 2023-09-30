@@ -1,3 +1,45 @@
 h1{
 text-align: center;
 }
+
+
+body {
+    background: url(generated-pic.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    color: aliceblue;
+}
+
+
+.besen {
+    position: absolute;
+    top: 70vh;
+    left: 30vw;
+    font-size: 400%;
+    --transform: rotate(-25deg)
+
+}
+.katze {
+    position: absolute;
+    top: 80vh;
+    left: 60vw;
+    font-size: 500%;
+    transform: rotate(1deg);
+}
+
+.herz {
+position: absolute;
+top: -7vh;
+left: 1vw;
+font-size: 50%;
+display: none;
+}
+
+.zaehler {
+    position: absolute;
+    left: 1vw;
+    bottom: 1vh;
+
+}
